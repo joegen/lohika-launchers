@@ -1,0 +1,5 @@
+{
+  "stunServerAddress" : "162.246.20.114",
+  "stunServerPort": 3478,
+  "turnURL": "lohika:lohika@162.246.20.114:3478"
+}
