@@ -1,0 +1,3 @@
+[submodule "kurento/source/kurento-room"]
+	path = kurento/source/kurento-room
+	url = https://github.com/joegen/kurento-room
