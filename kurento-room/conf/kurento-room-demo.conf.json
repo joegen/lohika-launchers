@@ -1,0 +1,33 @@
+{
+  "_params" : {
+    "executable_prefix": "/usr/local/lohika/kurento-room/kurento-room-demo-6.6.0/bin/",
+    "executable" : "start.sh"
+  },
+
+  "kms": {
+      "uris": ["ws://192.168.254.110:8888/kurento"]
+   },
+   "app": {
+      "uri": "https://192.168.254.110:8443/"
+   },
+   "kurento": {
+      "client": {
+         "requestTimeout": 20000
+      }
+   },
+   "demo": {
+      "hatUrl": "mario-wings.png",
+      "hatCoords": {
+         "offsetXPercent": -0.35,
+         "offsetYPercent": -1.2,
+         "widthPercent": 1.6,
+         "heightPercent": 1.6
+      },
+      "loopback" : {
+         "remote": false,
+         "andLocal": false
+      },
+      "authRegex": ".*",
+      "kmsLimit": 1000
+   }
+}
