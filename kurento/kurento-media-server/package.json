@@ -1,0 +1,26 @@
+{
+  "name": "lohika-launcher-kurento",
+  "version": "0.1.0",
+  "description": "A lohika launcher for kurento",
+  "author": "Earl Tormes <earl-jann@github.com>",
+  "contributors": [{
+  "name": "Earl Tormes",
+  "email": "earl-jann@github.com"
+}],
+  "bin": {
+  "lohikalauncher-kurento-room": "./bin/lohikalauncher-kurento.js"
+},
+  "scripts": {
+    "launch-app": "./start.sh"
+  },
+  "main": "lib/lohikalauncher-kurento.js",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/lohika-launchers.git"
+},
+  "keywords": [
+  "lohika",
+  "launcher",
+  "kurento"
+]
+}
