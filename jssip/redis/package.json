@@ -1,0 +1,26 @@
+{
+  "name": "lohika-launcher-redis",
+  "version": "0.1.0",
+  "description": "A lohika launcher for redis",
+  "author": "Earl Tormes <earl-jann@github.com>",
+  "contributors": [{
+  "name": "Earl Tormes",
+  "email": "earl-jann@github.com"
+}],
+  "bin": {
+  "lohikalauncher-redis": "./bin/lohikalauncher-redis.js"
+},
+  "scripts": {
+    "launch-app": "./start.sh"
+  },
+  "main": "lib/lohikalauncher-redis.js",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/lohika-launchers.git"
+},
+  "keywords": [
+  "lohika",
+  "launcher",
+  "redis"  
+]
+}

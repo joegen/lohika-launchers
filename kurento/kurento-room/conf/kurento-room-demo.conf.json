@@ -1,6 +1,6 @@
 {
   "_params" : {
-    "executable_prefix": "/usr/local/lohika/kurento-room/kurento-room-demo-6.6.0/bin/",
+    "executable_prefix": "/usr/local/lohika/data/app/kurento-room-demo-6.6.0/bin/",
     "executable" : "start.sh"
   },
 
